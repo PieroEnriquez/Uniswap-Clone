@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from '../components/Header.js'
 
 const style = {
   wrapper: `h-screen max-h-screen h-min-screen w-screen bg-[#2D242F] text-white select-none flex flex-col justify-between`,
@@ -8,7 +9,9 @@ const style = {
 export default function Home() {
   return (
     <div className={style.wrapper}>
-      <h1>Hello</h1>
+      <Header />
+      <h2>Main</h2>
+      <h2>Transaction History</h2>
     </div>
   )
 }
