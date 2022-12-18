@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
+// Chainlink smart contract to interact with the oracle
 interface AggregatorV3Interface {
     function decimals() external view returns (uint8);
 
